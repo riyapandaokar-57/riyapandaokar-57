@@ -1,315 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riya Prashant Pandaokar - Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# <div align="center">👋 Hi there, I'm Riya Prashant Pandaokar</div>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            min-height: 100vh;
-            padding: 40px 20px;
-            overflow-x: hidden;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Frontend+Developer+from+Nashik;Flutter+%26+Android+Enthusiast;Building+Beautiful+Mobile+Apps;Creative+Problem+Solver" alt="Typing SVG" />
+</div>
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=riyapandaokar&label=Profile%20views&color=f75c7e&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/riyapandaokar?label=Followers&style=social" alt="GitHub Followers" />
+</div>
 
-        h1 {
-            text-align: center;
-            font-size: 3em;
-            margin-bottom: 10px;
-            animation: fadeInDown 1s ease-out;
-        }
+---
 
-        .wave {
-            display: inline-block;
-            animation: wave 2s ease-in-out infinite;
-            transform-origin: 70% 70%;
-        }
+## 🚀 About Me
 
-        @keyframes wave {
-            0%, 100% { transform: rotate(0deg); }
-            10%, 30% { transform: rotate(14deg); }
-            20% { transform: rotate(-8deg); }
-            40% { transform: rotate(-4deg); }
-            50% { transform: rotate(10deg); }
-        }
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1292677/screenshots/6139167/avento.gif">
 
-        h3 {
-            text-align: center;
-            font-size: 1.5em;
-            margin-bottom: 40px;
-            opacity: 0;
-            animation: fadeIn 1s ease-out 0.5s forwards;
-        }
+- 🔭 Currently working on *Mess Food Rating App*
+- 🌱 Learning *Flutter & Android Studio*
+- 📫 Reach me at *riyapandaokar@gmail.com*
+- 📄 Check my experiences: [Resume](https://docs.google.com/document/d/1GdRj0LE7WRLEBGST4vmM6l4tGGj9LARm3zR39NO8llM/edit?usp=drive_link)
+- 🎨 Fun fact: *I'm an artist at heart who codes!*
 
-        .info-section {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            opacity: 0;
-            transform: translateY(30px);
-            animation: slideUp 0.8s ease-out 1s forwards;
-        }
+---
 
-        .info-item {
-            margin: 20px 0;
-            padding: 15px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            border-left: 4px solid #fff;
-            transition: all 0.3s ease;
-        }
+## 🤝 Connect with Me
 
-        .info-item:hover {
-            transform: translateX(10px);
-            background: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
+<div align="center">
+  <a href="https://linkedin.com/in/riya-pandaokar">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://instagram.com/the_bornartist">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="mailto:riyapandaokar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</div>
 
-        .section-title {
-            font-size: 1.8em;
-            margin-bottom: 20px;
-            text-align: center;
-            position: relative;
-            display: inline-block;
-            width: 100%;
-        }
+---
 
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 100px;
-            height: 3px;
-            background: #fff;
-            margin: 10px auto;
-            animation: expandWidth 1s ease-out;
-        }
+## 🛠 Tech Stack
 
-        @keyframes expandWidth {
-            from { width: 0; }
-            to { width: 100px; }
-        }
+### Frontend Development
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,angular" alt="Frontend Skills"/>
+</div>
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 30px 0;
-        }
+### Mobile Development
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,android,kotlin,react" alt="Mobile Skills"/>
+</div>
 
-        .social-link {
-            width: 60px;
-            height: 60px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            color: #fff;
-            font-size: 24px;
-            transition: all 0.3s ease;
-            animation: bounceIn 0.6s ease-out;
-        }
+### Backend & Databases
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,java,mongodb,mysql,postgresql,cassandra" alt="Backend Skills"/>
+</div>
 
-        .social-link:nth-child(1) { animation-delay: 1.2s; opacity: 0; animation-fill-mode: forwards; }
-        .social-link:nth-child(2) { animation-delay: 1.4s; opacity: 0; animation-fill-mode: forwards; }
+### Cloud & DevOps
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,firebase,kubernetes,git,linux" alt="Cloud Skills"/>
+</div>
 
-        .social-link:hover {
-            transform: translateY(-10px) scale(1.1);
-            background: rgba(255, 255, 255, 0.4);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
+### Design & Creative Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,blender" alt="Design Skills"/>
+</div>
 
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
-        }
+### Programming Languages & Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,dotnet,rust,python,java,javascript,arduino,unity,unreal" alt="Programming Languages"/>
+</div>
 
-        .tool-item {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-            transition: all 0.3s ease;
-            opacity: 0;
-            animation: fadeInScale 0.5s ease-out forwards;
-        }
+### Data Science
+<div align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+</div>
 
-        .tool-item:nth-child(1) { animation-delay: 1.5s; }
-        .tool-item:nth-child(2) { animation-delay: 1.6s; }
-        .tool-item:nth-child(3) { animation-delay: 1.7s; }
-        .tool-item:nth-child(4) { animation-delay: 1.8s; }
-        .tool-item:nth-child(5) { animation-delay: 1.9s; }
-        .tool-item:nth-child(6) { animation-delay: 2s; }
-        .tool-item:nth-child(7) { animation-delay: 2.1s; }
-        .tool-item:nth-child(8) { animation-delay: 2.2s; }
+---
 
-        .tool-item:hover {
-            transform: translateY(-10px) rotate(5deg);
-            background: rgba(255, 255, 255, 0.25);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+## 📊 GitHub Analytics
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=riyapandaokar&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=riyapandaokar&layout=compact&langs_count=8&theme=radical"/>
+</div>
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=riyapandaokar&theme=radical" alt="GitHub Streak"/>
+</div>
 
-        @keyframes slideUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=riyapandaokar&theme=redical&bg_color=0d1117&color=f75c7e&line=f85d7f&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph"/>
+</div>
 
-        @keyframes bounceIn {
-            0% {
-                opacity: 0;
-                transform: scale(0.3);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-            70% {
-                transform: scale(0.9);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
+---
 
-        @keyframes fadeInScale {
-            from {
-                opacity: 0;
-                transform: scale(0.8);
-            }
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
+## 🏆 GitHub Trophies
 
-        .email-link {
-            color: #fff;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: border-color 0.3s ease;
-        }
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=riyapandaokar&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies"/>
+</div>
 
-        .email-link:hover {
-            border-bottom-color: #fff;
-        }
+---
 
-        .resume-link {
-            display: inline-block;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            margin-top: 10px;
-        }
+## 💡 Random Dev Quote
 
-        .resume-link:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: scale(1.05);
-        }
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+</div>
 
-        @media (max-width: 768px) {
-            h1 { font-size: 2em; }
-            h3 { font-size: 1.2em; }
-            .tools-grid { grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Hi <span class="wave">👋</span>, I'm Riya Prashant Pandaokar</h1>
-        <h3>A passionate frontend developer from Nashik (India)</h3>
+---
 
-        <div class="info-section">
-            <div class="info-item">
-                🔭 I'm currently working on <strong>Mess Food Rating App</strong>
-            </div>
-            <div class="info-item">
-                🌱 I'm currently learning <strong>Flutter, Android Studio</strong>
-            </div>
-            <div class="info-item">
-                📫 How to reach me: <a href="mailto:riyapandaokar@gmail.com" class="email-link">riyapandaokar@gmail.com</a>
-            </div>
-            <div class="info-item">
-                📄 <a href="https://docs.google.com/document/d/1GdRj0LE7WRLEBGST4vmM6l4tGGj9LARm3zR39NO8llM/edit?usp=drive_link" target="_blank" class="resume-link">View My Resume</a>
-            </div>
-        </div>
+## 🐍 Contribution Snake
 
-        <div class="info-section">
-            <h2 class="section-title">Connect with me</h2>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/riya pandaokar" target="_blank" class="social-link" title="LinkedIn">
-                    💼
-                </a>
-                <a href="https://instagram.com/the_bornartist" target="_blank" class="social-link" title="Instagram">
-                    📷
-                </a>
-            </div>
-        </div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/riyapandaokar/riyapandaokar/output/snake.svg" alt="Snake animation" />
+</div>
 
-        <div class="info-section">
-            <h2 class="section-title">Languages & Tools</h2>
-            <div class="tools-grid">
-                <div class="tool-item">Android</div>
-                <div class="tool-item">Angular</div>
-                <div class="tool-item">Flutter</div>
-                <div class="tool-item">React</div>
-                <div class="tool-item">Python</div>
-                <div class="tool-item">Java</div>
-                <div class="tool-item">JavaScript</div>
-                <div class="tool-item">C++</div>
-                <div class="tool-item">Kotlin</div>
-                <div class="tool-item">Dart</div>
-                <div class="tool-item">Django</div>
-                <div class="tool-item">Firebase</div>
-                <div class="tool-item">MongoDB</div>
-                <div class="tool-item">MySQL</div>
-                <div class="tool-item">PostgreSQL</div>
-                <div class="tool-item">Git</div>
-                <div class="tool-item">AWS</div>
-                <div class="tool-item">GCP</div>
-                <div class="tool-item">Figma</div>
-                <div class="tool-item">Unity</div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <h3>✨ Made with creativity and code ✨</h3>
+  <p>⭐ Star some repos if you find them interesting! ⭐</p>
+</div>
